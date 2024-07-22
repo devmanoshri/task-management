@@ -13,5 +13,6 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class UserComponent {
   user = input.required<User>();
 
+
   imagePath = computed(() => 'users/' + this.user().avatar);
 }
