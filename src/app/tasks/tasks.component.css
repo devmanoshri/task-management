@@ -1,3 +1,10 @@
+a {
+  text-decoration: none;
+  color: rgb(134, 179, 227);
+}
+a:hover {
+  color: rgb(32, 121, 173);
+}
 ul {
   list-style: none;
   margin: 1rem 0;
